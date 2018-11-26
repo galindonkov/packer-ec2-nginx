@@ -14,8 +14,8 @@ A packer project that creates an ```AWS box``` with ```nginx``` installed on it
 
 ### The repo is having following file
 
-- File ec2-nginx-box.json : a JSON file that configure the various components of Packer in order to create required machine images
-
+- File ec2-nginx-box.json : a JSON file that configure the various components of Packer in order to create machine images 
+with ```nginx``` installed on it.
 
 ### How to use the repo
 
