@@ -1,0 +1,23 @@
+---
+driver:
+  name: ec2
+  aws_ssh_key_id: ec2-keys
+  region: us-east-1
+
+provisioner:
+  name: shell
+
+platforms:
+  - name: amazon
+    driver:
+     image_id: ami-02604c0b95601c4e0
+
+transport:
+    username: ubuntu
+    ssh_key: ~/.ssh/ec2-keys.pem
+
+verifier:
+  name: inspec
+
+suites:
+- name: default
