@@ -42,7 +42,7 @@ with ```nginx``` installed on it.
 
 - Set AMAZON key pair : [AWS key pair](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair)
 
-- Check following link to get aware how the kitchen file should looks like : [AWS kitchen file] https://docs.aws.amazon.com/opsworks/latest/userguide/cookbooks-101-basics-ec2.html
+- Check following link to get aware how the kitchen file should looks like : [AWS kitchen file](https://docs.aws.amazon.com/opsworks/latest/userguide/cookbooks-101-basics-ec2.html)
 
 - Installing ```ruby environment``` by : ```brew install rbenv```
 
